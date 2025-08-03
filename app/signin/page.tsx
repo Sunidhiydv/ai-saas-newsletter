@@ -26,7 +26,6 @@ export default function SigninPage() {
           password
         });
         if(error) throw error;
-        setMessage("Check your email for the confirmation link.");
         router.push("/dashboard");
       }
 
